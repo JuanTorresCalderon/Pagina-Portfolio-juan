@@ -1,0 +1,91 @@
+
+        body {
+            background: #E7E9E5;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .titulo {
+            border: 5px solid black; 
+            height: 120px;
+            position: relative;
+            text-align: center;
+
+            
+        }
+
+        .Contenidotitulo {
+            
+            color: blue;
+            position: absolute;
+            margin: 2px;
+            text-align: center;
+            inset: 0;
+        }
+        
+        .Barradenavegacion {
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            border: 3px dashed blue ;
+            box-sizing: border-box;
+            font-size: 20px;
+        }
+
+        .Navegacion {
+              
+            margin: 10px;
+            color: red;
+            text-decoration-line: none;
+
+        }
+
+        .Navegacion:hover{
+            border: 5px solid rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+    
+
+        }
+
+        .Instagram {
+            color: rgb(158, 55, 184);
+
+        }
+
+        .Instagram:hover{
+            color:rgb(0, 0, 0);
+            border: 5px solid rgb(158, 55, 184);
+
+        }
+
+        .Facebook {
+            color:  rgb(24, 119, 242)
+
+;
+        }
+        .Facebook:hover{
+            color: rgb(0,0,0);    
+            border: 5px solid rgb(24, 119, 242);
+        }
+
+        .Linkedin {
+            color: rgb(0, 115, 177);
+        }
+        .Linkedin:hover{
+            color: rgb(0, 0, 0);
+            border: 5px solid rgb(0, 115, 177);
+        }
+
+        .Tiktok {
+            color: rgb(254, 44, 85);
+        }
+        .Tiktok:hover{
+            color: rgb(0, 0, 0);
+            border: 5px solid rgb(254, 44, 85);
+        }
+
+
+
+
+        
+
