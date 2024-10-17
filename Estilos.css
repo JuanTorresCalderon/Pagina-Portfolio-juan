@@ -1,7 +1,7 @@
 
         body {
 
-            font-family: Arial, sans-serif;
+            font-family: Poppins;
             line-height: 1.6;
             margin: 0;
             padding: 0;
@@ -15,7 +15,7 @@
             height: 120px;
             position: relative;
             text-align: center;
-            background-color: rgb(40, 188, 171);
+            background-color: white;
 
 
             
@@ -23,9 +23,9 @@
 
         .Contenidotitulo {
             
-            color:  white;
+            color:  black;
             position: absolute;
-            margin: 2px;
+            margin: -15px;
             text-align: center;
             inset: 0;
         }
@@ -34,10 +34,9 @@
             text-align: center;
             bottom: 0;
             right: 0;
-            border: 5px solid black;
             box-sizing: border-box;
             font-size: 20px;
-            background-color: rgb(40, 188, 171);
+            background-color: #00613A;
         }
 
         .Navegacion {
@@ -53,10 +52,6 @@
             color: rgb(0, 0, 0);
     
 
-        }
-
-        .Imagenmia {
-            text-align: center;
         }
 
         .XP {
@@ -112,7 +107,7 @@
 
         .Listadeobjetivos {
             background-color: #ffffff;
-            margin: 23px 43px;
+            margin: 30px 43px;
             padding: 20px;
             border-radius: 5px;
         }
@@ -126,7 +121,7 @@
 
         .Proyectos {
             background-color: #ffffff;
-            margin: 23px 43px;
+            margin: 28px 43px;
             padding: 20px;
             border-radius: 5px;
         }
@@ -150,10 +145,15 @@
             margin: 20px 0;
             padding: 20px;
             border-radius: 5px;
-            background-color: rgb(40, 188, 171);
+            background-color: #00613A;
+        }
+
+        img {
+            border-radius: 20px;
         }
         
 
+        
         
         
         
