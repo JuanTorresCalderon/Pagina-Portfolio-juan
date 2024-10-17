@@ -1,21 +1,29 @@
 
         body {
-            background: #E7E9E5;
-            font-family: Arial, Helvetica, sans-serif;
+
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: #333;
         }
+        
 
         .titulo {
-            border: 5px solid black; 
+            
             height: 120px;
             position: relative;
             text-align: center;
+            background-color: rgb(40, 188, 171);
+
 
             
         }
 
         .Contenidotitulo {
             
-            color: blue;
+            color:  white;
             position: absolute;
             margin: 2px;
             text-align: center;
@@ -24,26 +32,44 @@
         
         .Barradenavegacion {
             text-align: center;
-            position: fixed;
             bottom: 0;
             right: 0;
-            border: 3px dashed blue ;
+            border: 5px solid black;
             box-sizing: border-box;
             font-size: 20px;
+            background-color: rgb(40, 188, 171);
         }
 
         .Navegacion {
               
             margin: 10px;
-            color: red;
+            color: white;
             text-decoration-line: none;
 
         }
 
-        .Navegacion:hover{
+        .Navegacion:hover {
             border: 5px solid rgb(0, 0, 0);
             color: rgb(0, 0, 0);
     
+
+        }
+
+        .Imagenmia {
+            text-align: center;
+        }
+
+        .XP {
+
+            background-color: #ffffff;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px; 
+            
+        }
+
+        .XP-item{
+            margin-bottom: 20px;
 
         }
 
@@ -83,6 +109,54 @@
             color: rgb(0, 0, 0);
             border: 5px solid rgb(254, 44, 85);
         }
+
+        .Listadeobjetivos {
+            background-color: #ffffff;
+            margin: 23px 43px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .XP {
+            background-color: #ffffff;
+            margin: 23px 43px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .Proyectos {
+            background-color: #ffffff;
+            margin: 23px 43px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .RedesSocialesCL {
+            background-color: #ffffff;
+            margin: 23px 43px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .PreguntasF {
+            background-color: #ffffff;
+            margin: 23px 43px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .footer {
+            color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            background-color: rgb(40, 188, 171);
+        }
+        
+
+        
+        
+        
 
 
 
